@@ -154,8 +154,8 @@
 <wire x1="50" y1="21.89" x2="50" y2="-13" width="0.254" layer="20"/>
 <wire x1="-50" y1="-13" x2="50" y2="-13" width="0.254" layer="20"/>
 <wire x1="-50" y1="21.89" x2="50" y2="21.89" width="0.254" layer="20"/>
-<wire x1="-33" y1="19.985" x2="-33" y2="-13" width="0.254" layer="21"/>
-<wire x1="33" y1="19.985" x2="33" y2="-13" width="0.254" layer="22"/>
+<wire x1="-33" y1="21.89" x2="-33" y2="-13" width="0.254" layer="21"/>
+<wire x1="33" y1="21.89" x2="33" y2="-13" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="gateronrgb">
@@ -2828,9 +2828,9 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <element name="R3" library="resistor" package="R0805" value="18k" x="16.8275" y="0.9525" rot="MR0"/>
 <element name="C2" library="resistor" package="C0805K" value="100n" x="20.6375" y="8.89" rot="MR0"/>
 <element name="DD1" library="40xx" package="SO14" value="4011D" x="5.715" y="13.6525" rot="MR90"/>
-<element name="VT1" library="m_transistor" package="TO92" value="KT561" x="-26.035" y="1.905" rot="R270"/>
-<element name="VT2" library="m_transistor" package="TO92" value="KT561" x="-26.035" y="-7.3025" rot="R270"/>
-<element name="VT3" library="m_transistor" package="TO92" value="KT561" x="-26.035" y="11.1125" rot="R270"/>
+<element name="VT1" library="m_transistor" package="TO92" value="KT3107" x="-26.035" y="1.905" rot="R270"/>
+<element name="VT2" library="m_transistor" package="TO92" value="KT3107" x="-26.035" y="-7.3025" rot="R270"/>
+<element name="VT3" library="m_transistor" package="TO92" value="KT3107" x="-26.035" y="11.1125" rot="R270"/>
 <element name="1RB" library="rcl" package="R0805" value="" x="-21.9075" y="11.7475" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-24.13" y="11.1125" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-21.2725" y="9.2075" size="1.27" layer="28" rot="MR0"/>
@@ -2914,7 +2914,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <element name="C7" library="resistor" package="C0805K" value="100n" x="12.3825" y="8.5725" rot="MR180"/>
 <element name="JP2" library="pinhead" package="1X02" value="" x="-5.715" y="10.4775" rot="R180"/>
 <element name="C3B" library="resistor" package="C0805K" value="59" x="23.495" y="-8.5725" rot="MR0"/>
-<element name="R13" library="rcl" package="R0805" value="10" x="7.3025" y="-4.7625" rot="MR90"/>
+<element name="RC1" library="rcl" package="R0805" value="10" x="7.3025" y="-4.7625" rot="MR90"/>
 <element name="J1" library="rcl" package="R1206W" value="" x="-9.2075" y="-4.7625" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-7.3025" y="-6.0325" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="-7.3025" y="-7.3025" size="1.27" layer="28" rot="MR0"/>
@@ -2951,7 +2951,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <wire x1="22.86" y1="-3.1975" x2="20.32" y2="-3.1975" width="0.6096" layer="16"/>
 <wire x1="20.32" y1="-3.1975" x2="19.05" y2="-3.1975" width="0.6096" layer="16"/>
 <wire x1="20.32" y1="-0.5325" x2="20.32" y2="-3.1975" width="0.6096" layer="16"/>
-<contactref element="R13" pad="1"/>
+<contactref element="RC1" pad="1"/>
 <wire x1="16.51" y1="20.6375" x2="16.8275" y2="20.6375" width="0.6096" layer="16"/>
 <wire x1="16.8275" y1="8.5725" x2="13.3825" y2="8.5725" width="1.27" layer="16"/>
 <contactref element="+12V" pad="2"/>
@@ -3309,7 +3309,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </signal>
 <signal name="N$23">
 <contactref element="S1" pad="D3"/>
-<contactref element="R13" pad="2"/>
+<contactref element="RC1" pad="2"/>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="-2.8575" width="0.6096" layer="16"/>
 <wire x1="1.27" y1="-2.8575" x2="2.54" y2="-1.5875" width="0.6096" layer="16"/>
 <wire x1="2.54" y1="-1.5875" x2="3.4925" y2="-1.5875" width="0.6096" layer="16"/>
