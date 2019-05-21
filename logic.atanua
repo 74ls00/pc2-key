@@ -1,22 +1,33 @@
 <?xml version="1.0" ?>
-<Atanua Version="Atanua/Win32 1.3.141220 - [No user name set]" ChipCount="13" WireCount="6" key="37471" scale="16">
-    <Chip Name="logic NAND (fi)" xpos="1277952" ypos="327680" rot="0" key="86675" />
-    <Chip Name="logic NAND (fi)" xpos="1343488" ypos="1212416" rot="0" key="87305" />
-    <Chip Name="logic NAND (fi)" xpos="589824" ypos="1343488" rot="0" key="89934" />
-    <Chip Name="logic NAND (fi)" xpos="1015808" ypos="1277952" rot="0" key="82258" />
-    <Chip Name="LED (red)" xpos="1867776" ypos="786432" rot="0" key="95136" />
-    <Chip Name="LED (blue)" xpos="1867776" ypos="262144" rot="0" key="97857" />
-    <Chip Name="LED (green)" xpos="1867776" ypos="524288" rot="0" key="94038" />
-    <Chip Name="switch (&apos;p&apos;)" xpos="262144" ypos="524288" rot="0" key="194041" />
-    <Chip Name="switch (&apos;h&apos;)" xpos="262144" ypos="786432" rot="0" key="190572" />
-    <Chip Name="switch (&apos;s&apos;)" xpos="262144" ypos="262144" rot="0" key="236037" />
-    <Chip Name="logic NOT" xpos="1310720" ypos="-294912" rot="0" key="299136" />
-    <Chip Name="logic NOT" xpos="1540096" ypos="589824" rot="0" key="301700" />
-    <Chip Name="logic NOT" xpos="1540096" ypos="327680" rot="0" key="302092" />
-    <Wire chip1="8" pad1="0" chip2="4" pad2="0" key="199278" />
-    <Wire chip1="0" pad1="2" chip2="12" pad2="0" key="373568" />
-    <Wire chip1="12" pad1="1" chip2="5" pad2="0" key="375350" />
-    <Wire chip1="0" pad1="0" chip2="9" pad2="0" key="370532" />
-    <Wire chip1="0" pad1="1" chip2="9" pad2="0" key="381474" />
-    <Wire chip1="11" pad1="1" chip2="6" pad2="0" key="335095" />
+<Atanua Version="Atanua/Win32 1.3.141220 - [No user name set]" ChipCount="14" WireCount="16" key="7575800" scale="16">
+    <Chip Name="logic NAND (fi)" xpos="1474560" ypos="851968" rot="0" key="7493684" />
+    <Chip Name="logic NAND (fi)" xpos="1114112" ypos="688128" rot="0" key="7495598" />
+    <Chip Name="logic NAND (fi)" xpos="1212416" ypos="393216" rot="0" key="7493097" />
+    <Chip Name="logic NAND (fi)" xpos="655360" ypos="786432" rot="0" key="7490549" />
+    <Chip Name="LED (red)" xpos="1867776" ypos="1048576" rot="0" key="7502087" />
+    <Chip Name="LED (blue)" xpos="2850816" ypos="229376" rot="0" key="7501030" />
+    <Chip Name="LED (green)" xpos="1867776" ypos="589824" rot="0" key="7497201" />
+    <Chip Name="switch (&apos;p&apos;)" xpos="262144" ypos="491520" rot="0" key="7470942" />
+    <Chip Name="switch (&apos;h&apos;)" xpos="262144" ypos="786432" rot="0" key="7463627" />
+    <Chip Name="switch (&apos;s&apos;)" xpos="32768" ypos="262144" rot="0" key="7377058" />
+    <Chip Name="logic NOT" xpos="1540096" ypos="655360" rot="0" key="7835683" />
+    <Chip Name="logic NOT" xpos="2392064" ypos="393216" rot="0" key="7837355" />
+    <Chip Name="logic NOT" xpos="1507328" ypos="1114112" rot="0" key="419636" />
+    <Chip Name="logic OR (fi)" xpos="2064384" ypos="393216" rot="0" key="15808858" />
+    <Wire chip1="10" pad1="1" chip2="6" pad2="0" key="7738960" />
+    <Wire chip1="1" pad1="2" chip2="10" pad2="0" key="438940" />
+    <Wire chip1="1" pad1="0" chip2="7" pad2="0" key="445279" />
+    <Wire chip1="12" pad1="1" chip2="4" pad2="0" key="366174" />
+    <Wire chip1="3" pad1="2" chip2="12" pad2="0" key="374869" />
+    <Wire chip1="3" pad1="0" chip2="3" pad2="1" key="335864" />
+    <Wire chip1="8" pad1="0" chip2="3" pad2="0" key="330538" />
+    <Wire chip1="3" pad1="2" chip2="1" pad2="1" key="309360" />
+    <Wire chip1="1" pad1="2" chip2="2" pad2="1" key="274459" />
+    <Wire chip1="2" pad1="0" chip2="3" pad2="2" key="768017" />
+    <Wire chip1="11" pad1="1" chip2="5" pad2="0" key="685878" />
+    <Wire chip1="0" pad1="0" chip2="1" pad2="2" key="15877831" />
+    <Wire chip1="0" pad1="1" chip2="12" pad2="0" key="15889150" />
+    <Wire chip1="13" pad1="1" chip2="0" pad2="2" key="15806237" />
+    <Wire chip1="13" pad1="0" chip2="2" pad2="2" key="15817619" />
+    <Wire chip1="13" pad1="2" chip2="11" pad2="0" key="15822350" />
 </Atanua>
