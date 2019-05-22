@@ -15637,7 +15637,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="S1" library="gateronrgb" deviceset="CHERRY-MX" device="" value=""/>
 <part name="DA1" library="mc34063" deviceset="MC34063" device="AD"/>
 <part name="C3A" library="resistor" deviceset="C-EU" device="C0805K" value="59"/>
-<part name="R1A" library="resistor" deviceset="R-EU_" device="R0805" value="2r5"/>
+<part name="R1A" library="resistor" deviceset="R-EU_" device="R1206" value="2r5"/>
 <part name="U$13" library="lib-user" deviceset="GND" device=""/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="11k"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="R0805" value="18k"/>
@@ -15684,12 +15684,15 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C3B" library="resistor" deviceset="C-EU" device="C0805K" value="59"/>
 <part name="RC1" library="rcl" deviceset="R-EU_" device="R0805" value="10"/>
 <part name="J1" library="rcl" deviceset="R-EU_" device="R1206W"/>
-<part name="R1B" library="resistor" deviceset="R-EU_" device="R0805"/>
-<part name="JP5" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP6" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="R1B" library="resistor" deviceset="R-EU_" device="R1206"/>
+<part name="PWRLED" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="HDDLED" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="+12V" library="DSS" deviceset="CON_2P" device="" value=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="M0805"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R1206W"/>
+<part name="U$3" library="lib-user" deviceset="GND" device=""/>
+<part name="U$4" library="lib-user" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15783,16 +15786,19 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="RC1" gate="G$1" x="236.22" y="73.66" rot="R90"/>
 <instance part="J1" gate="G$1" x="231.14" y="109.22" rot="R90"/>
 <instance part="R1B" gate="G$1" x="35.56" y="48.26"/>
-<instance part="JP5" gate="G$1" x="129.54" y="114.3" rot="MR0"/>
-<instance part="JP6" gate="G$1" x="129.54" y="91.44" rot="MR0"/>
+<instance part="PWRLED" gate="G$1" x="124.46" y="114.3" rot="MR0"/>
+<instance part="HDDLED" gate="G$1" x="124.46" y="91.44" rot="MR0"/>
 <instance part="+12V" gate="G$1" x="10.16" y="30.48" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="7.62" y="38.1" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="15.24" y="36.322" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="JP1" gate="G$1" x="129.54" y="104.14" rot="MR0"/>
 <instance part="+3V3" gate="G$1" x="152.4" y="139.7" smashed="yes">
 <attribute name="VALUE" x="154.94" y="142.24" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="R1" gate="G$1" x="134.62" y="106.68" rot="R90"/>
+<instance part="R4" gate="G$1" x="134.62" y="83.82" rot="R90"/>
+<instance part="U$3" gate="G$1" x="134.62" y="76.2"/>
+<instance part="U$4" gate="G$1" x="134.62" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -15855,6 +15861,16 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="RC1" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="236.22" y1="68.58" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="U$4" gate="G$1" pin="GND"/>
+<wire x1="134.62" y1="101.6" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<wire x1="134.62" y1="78.74" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -16184,16 +16200,20 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="DD1" gate="C" pin="I1"/>
 <pinref part="DD1" gate="C" pin="I0"/>
-<label x="139.7" y="91.44" size="1.778" layer="95"/>
+<label x="139.7" y="93.98" size="1.778" layer="95"/>
 <junction x="152.4" y="91.44"/>
 <wire x1="154.94" y1="88.9" x2="152.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="88.9" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="91.44" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
-<junction x="137.16" y="91.44"/>
-<wire x1="137.16" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="HDDLED" gate="G$1" pin="1"/>
+<wire x1="127" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<junction x="132.08" y="91.44"/>
+<wire x1="132.08" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="88.9" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
+<junction x="134.62" y="91.44"/>
 </segment>
 </net>
 <net name="OUT_DSLED" class="0">
@@ -16221,11 +16241,15 @@ Source: AVX .. aphvc.pdf</description>
 <net name="PWRLED" class="0">
 <segment>
 <pinref part="DD1" gate="D" pin="I0"/>
-<wire x1="154.94" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
 <label x="139.7" y="114.3" size="1.778" layer="95"/>
-<pinref part="JP5" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
-<junction x="137.16" y="114.3"/>
+<pinref part="PWRLED" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="114.3" x2="132.08" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="127" y1="114.3" x2="132.08" y2="114.3" width="0.1524" layer="91"/>
+<junction x="132.08" y="114.3"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="111.76" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
+<junction x="134.62" y="114.3"/>
 </segment>
 </net>
 <net name="OUT_PWLED" class="0">
