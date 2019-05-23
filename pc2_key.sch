@@ -15603,6 +15603,137 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="inductor-neosid">
+<description>&lt;b&gt;Neosid Chokes and Transformers&lt;/b&gt;&lt;p&gt;
+
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Electronic Component Book, Part 2 : Chokes, Fixed Value Inductors
+&lt;li&gt;Part 3 : Filters, Coil Assemblies, Thermoplastic Parts
+&lt;li&gt;Part 4 : SMD Filters, Coils, Fixed Value Inductors
+&lt;li&gt;www.neosid.de
+&lt;/ul&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SD12-680">
+<description>NOMINAL &lt;b&gt;INDUCTANCE&lt;/b&gt;&lt;p&gt;
+up to 680 µH, grid 10 mm, diameter 12.5 mm, height 20 mm</description>
+<wire x1="-1.1" y1="-1.55" x2="1.1" y2="-1.55" width="0.1524" layer="51"/>
+<wire x1="1.1" y1="-1.55" x2="1.1" y2="1.55" width="0.1524" layer="51"/>
+<wire x1="1.1" y1="1.55" x2="-1.1" y2="1.55" width="0.1524" layer="51"/>
+<wire x1="-1.1" y1="1.55" x2="-1.1" y2="-1.55" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="5.9" width="0.2032" layer="21"/>
+<pad name="1" x="-5" y="0" drill="1.1" shape="long" rot="R90"/>
+<pad name="2" x="5" y="0" drill="1.1" shape="long" rot="R90"/>
+<text x="3.727" y="5.048" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.25" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SD12K-82">
+<description>NOMINAL &lt;b&gt;INDUCTANCE&lt;/b&gt;&lt;p&gt;
+up to 82 µH, grid 10 mm, diameter 12 mm, height 13 mm</description>
+<circle x="0" y="0" radius="5.9" width="0.2032" layer="21"/>
+<pad name="1" x="-5" y="0" drill="1.1" shape="long" rot="R90"/>
+<pad name="2" x="5" y="0" drill="1.1" shape="long" rot="R90"/>
+<text x="3.981" y="4.794" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.25" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SD12K100">
+<description>NOMINAL &lt;b&gt;INDUCTANCE&lt;/b&gt;&lt;p&gt;
+over 82 µH, grid 5 mm, diameter 10.5 mm, height 13 mm</description>
+<circle x="0" y="0" radius="5.15" width="0.2032" layer="21"/>
+<pad name="1" x="-2.5" y="0" drill="1.1" shape="long" rot="R90"/>
+<pad name="2" x="2.5" y="0" drill="1.1" shape="long" rot="R90"/>
+<text x="3.473" y="4.286" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.25" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SD12_1000">
+<description>NOMINAL &lt;b&gt;INDUCTANCE&lt;/b&gt;&lt;p&gt;
+over 680 µH, grid 5 mm, diameter 12.5 mm, height 20 mm</description>
+<circle x="0" y="0" radius="6.15" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="5.45" width="0.2032" layer="21"/>
+<pad name="1" x="-2.5" y="0" drill="1.1" shape="long" rot="R90"/>
+<pad name="2" x="2.5" y="0" drill="1.1" shape="long" rot="R90"/>
+<text x="3.981" y="5.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.25" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="L">
+<text x="-3.81" y="1.778" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-3.81" y1="-1.27" x2="3.81" y2="1.27" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SD12" prefix="L" uservalue="yes">
+<description>&lt;b&gt;INDUCTOR&lt;/b&gt;&lt;p&gt;
+nominal inductance</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-680" package="SD12-680">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="BUSSMANN" constant="no"/>
+<attribute name="MPN" value="SD12-680" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="19K7201" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="K-82" package="SD12K-82">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="K100" package="SD12K100">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-1000" package="SD12_1000">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15652,13 +15783,13 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$1" library="lib-user" deviceset="GND" device=""/>
 <part name="VD1" library="diode" deviceset="DIODE-" device="SMB"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="L1" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="100u"/>
+<part name="L1" library="inductor-neosid" deviceset="SD12" device="K100" value="100u"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1210" value="10m"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1210" value="10m"/>
 <part name="C6" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="C7" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="U$2" library="lib-user" deviceset="GND" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="SW1" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="C3B" library="resistor" deviceset="C-EU" device="C0805K" value="59"/>
 <part name="RC1" library="rcl" deviceset="R-EU_" device="R0805" value="10"/>
 <part name="J1" library="rcl" deviceset="R-EU_" device="R1206W"/>
@@ -15747,7 +15878,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="+3V2" gate="G$1" x="132.08" y="40.64" smashed="yes">
 <attribute name="VALUE" x="134.62" y="43.18" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="L1" gate="G$1" x="116.84" y="71.12" smashed="yes" rot="R90">
+<instance part="L1" gate="G$1" x="116.84" y="71.12" smashed="yes">
 <attribute name="NAME" x="114.3" y="74.93" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="121.92" y="74.93" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -15756,7 +15887,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C6" gate="G$1" x="134.62" y="66.04"/>
 <instance part="C7" gate="G$1" x="132.08" y="27.94"/>
 <instance part="U$2" gate="G$1" x="142.24" y="12.7"/>
-<instance part="JP2" gate="G$1" x="68.58" y="116.84"/>
+<instance part="SW1" gate="G$1" x="68.58" y="116.84"/>
 <instance part="C3B" gate="G$1" x="99.06" y="63.5" smashed="yes">
 <attribute name="NAME" x="98.044" y="76.581" size="1.778" layer="95"/>
 <attribute name="VALUE" x="98.044" y="74.041" size="1.778" layer="96"/>
@@ -16065,20 +16196,20 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="VD1" gate="G$1" pin="C"/>
 <wire x1="106.68" y1="71.12" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="71.12" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <junction x="106.68" y="71.12"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="SW1" gate="G$1" pin="1"/>
 <pinref part="S1" gate=".A" pin="SW2"/>
 <wire x1="66.04" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="SW1" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="116.84" x2="45.72" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="S1" gate=".A" pin="SW1"/>
@@ -16258,7 +16389,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="134.62" y1="68.58" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
 <junction x="134.62" y="71.12"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="127" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
 <junction x="127" y="71.12"/>
 <pinref part="C5" gate="G$1" pin="1"/>
