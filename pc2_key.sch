@@ -15673,6 +15673,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$4" library="lib-user" deviceset="GND" device=""/>
 <part name="L2" library="rcl" deviceset="L-US" device="L1812"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C1210" value="10m"/>
+<part name="GND" library="pinhead" deviceset="PINHD-1X1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15774,10 +15775,11 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="R1" gate="G$1" x="33.02" y="157.48" rot="R90"/>
 <instance part="R4" gate="G$1" x="33.02" y="134.62" rot="R90"/>
-<instance part="U$3" gate="G$1" x="33.02" y="127"/>
+<instance part="U$3" gate="G$1" x="33.02" y="124.46"/>
 <instance part="U$4" gate="G$1" x="33.02" y="149.86"/>
 <instance part="L2" gate="G$1" x="114.3" y="35.56" rot="R90"/>
 <instance part="C3" gate="G$1" x="124.46" y="27.94"/>
+<instance part="GND" gate="G$1" x="22.86" y="127" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -15853,6 +15855,10 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 <wire x1="33.02" y1="129.54" x2="33.02" y2="127" width="0.1524" layer="91"/>
+<pinref part="GND" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="127" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
+<junction x="33.02" y="127"/>
 </segment>
 </net>
 <net name="N$25" class="0">
