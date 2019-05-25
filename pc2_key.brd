@@ -3014,15 +3014,15 @@ outside dimension, layers 16 + 30</description>
 <attribute name="NAME" x="-13.589" y="-9.7155" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="-15.3035" y="-12.2555" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="3RB" library="rcl" package="R0805" value="" x="-21.9075" y="3.4925" smashed="yes" rot="MR0">
+<element name="3RB" library="rcl" package="R0805" value="9k1&amp;200k" x="-21.9075" y="3.4925" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-30.1625" y="3.4925" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-21.2725" y="0.9525" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="3RG" library="rcl" package="R0805" value="" x="-21.9075" y="0.9525" smashed="yes" rot="MR0">
+<element name="3RG" library="rcl" package="R0805" value="20k&amp;27k" x="-21.9075" y="0.9525" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-30.1625" y="-0.9525" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-21.2725" y="-1.5875" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="3RR" library="rcl" package="R0805" value="" x="-21.9075" y="-1.5875" smashed="yes" rot="MR0">
+<element name="3RR" library="rcl" package="R0805" value="1k&amp;1k" x="-21.9075" y="-1.5875" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-30.1625" y="-2.8575" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-21.2725" y="-4.1275" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -3274,7 +3274,7 @@ outside dimension, layers 16 + 30</description>
 <wire x1="-22.8575" y1="-1.5875" x2="-22.8575" y2="-0.635" width="0.6096" layer="16"/>
 <wire x1="-22.8575" y1="-0.635" x2="-22.8575" y2="0.9525" width="0.6096" layer="16"/>
 <wire x1="-22.8575" y1="0.9525" x2="-22.8575" y2="3.4925" width="0.6096" layer="16"/>
-<wire x1="-27.305" y1="-0.635" x2="-22.8575" y2="-0.635" width="0.6096" layer="16"/>
+<wire x1="-27.305" y1="-0.635" x2="-22.8575" y2="-0.635" width="1.016" layer="16"/>
 </signal>
 <signal name="N$27">
 <contactref element="VT2" pad="3"/>
@@ -3283,7 +3283,7 @@ outside dimension, layers 16 + 30</description>
 <contactref element="2RR" pad="2"/>
 <wire x1="-22.8575" y1="-9.8425" x2="-22.8575" y2="-7.3025" width="0.6096" layer="16"/>
 <wire x1="-22.8575" y1="-7.3025" x2="-22.8575" y2="-4.7625" width="0.6096" layer="16"/>
-<wire x1="-27.305" y1="-9.8425" x2="-22.8575" y2="-9.8425" width="0.6096" layer="16"/>
+<wire x1="-27.305" y1="-9.8425" x2="-22.8575" y2="-9.8425" width="1.016" layer="16"/>
 </signal>
 <signal name="N$28">
 <contactref element="VT3" pad="3"/>
@@ -3293,7 +3293,7 @@ outside dimension, layers 16 + 30</description>
 <contactref element="1RB" pad="2"/>
 <wire x1="-22.8575" y1="8.5725" x2="-22.8575" y2="9.2075" width="0.6096" layer="16"/>
 <wire x1="-22.8575" y1="9.2075" x2="-22.8575" y2="11.7475" width="0.6096" layer="16"/>
-<wire x1="-27.305" y1="8.5725" x2="-22.8575" y2="8.5725" width="0.6096" layer="16"/>
+<wire x1="-27.305" y1="8.5725" x2="-22.8575" y2="8.5725" width="1.016" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="DA1" pad="7"/>
