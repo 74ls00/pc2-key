@@ -17398,109 +17398,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="jumper">
-<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SJ">
-<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-</package>
-<package name="SJW">
-<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<wire x1="1.905" y1="-1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.524" x2="2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.159" y1="1.27" x2="-1.905" y2="1.524" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.159" y1="-1.27" x2="-1.905" y2="-1.524" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.905" y1="-1.524" x2="2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.524" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="1.524" y1="0" x2="2.032" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.524" y1="0" x2="-2.032" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51" curve="-180"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51" curve="180"/>
-<smd name="1" x="-1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
-<smd name="2" x="1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
-<text x="-2.159" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="0.762" y1="-0.762" x2="1.016" y2="0.762" layer="51"/>
-<rectangle x1="1.016" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
-<rectangle x1="1.27" y1="-0.508" x2="1.397" y2="0.508" layer="51"/>
-<rectangle x1="1.397" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.016" y1="-0.762" x2="-0.762" y2="0.762" layer="51"/>
-<rectangle x1="-1.27" y1="-0.635" x2="-1.016" y2="0.635" layer="51"/>
-<rectangle x1="-1.397" y1="-0.508" x2="-1.27" y2="0.508" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.397" y2="0.254" layer="51"/>
-<rectangle x1="0.9652" y1="-0.7112" x2="1.0922" y2="-0.5842" layer="51"/>
-<rectangle x1="1.3462" y1="-0.3556" x2="1.4732" y2="-0.2286" layer="51"/>
-<rectangle x1="1.3462" y1="0.2032" x2="1.4732" y2="0.3302" layer="51"/>
-<rectangle x1="0.9652" y1="0.5842" x2="1.0922" y2="0.7112" layer="51"/>
-<rectangle x1="-1.0922" y1="-0.7112" x2="-0.9652" y2="-0.5842" layer="51"/>
-<rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
-<rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
-<rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SJ">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SJ" prefix="SJ" uservalue="yes">
-<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="SJ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SJ">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="W" package="SJW">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="fuse">
 <packages>
 <package name="SH32">
@@ -17602,17 +17499,17 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="VD1" library="diode" deviceset="DIODE-" device="SMB"/>
 <part name="L1" library="ct-pack" deviceset="L_" device="LH7X10MM" value="100u"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1210" value="22m"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C1210" value="10m"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C1210" value="33m"/>
 <part name="C6" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="C7" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="U$2" library="lib-user" deviceset="GND" device=""/>
 <part name="SW1" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="C3B" library="resistor" deviceset="C-EU" device="C0805K"/>
-<part name="RC1" library="rcl" deviceset="R-EU_" device="R0805" value="10"/>
+<part name="RC1" library="rcl" deviceset="R-EU_" device="R0805" value="22"/>
 <part name="J2" library="rcl" deviceset="R-EU_" device="R1206W" value="0"/>
 <part name="R1B" library="resistor" deviceset="R-EU_" device="R1206" value="4R7"/>
 <part name="PWRLED" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="HDDLED" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="!HDDLED" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="+12V" library="DSS" deviceset="CON_2P" device="" value=""/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R1206W" value="10k"/>
@@ -17621,10 +17518,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="L2" library="rcl" deviceset="L-US" device="PIS2816" value="10mkhn"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C1210" value="22m"/>
 <part name="GND" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="3VDB1" library="diode" deviceset="DIODE-" device="SOD80C" value="LL4148"/>
-<part name="J1" library="rcl" deviceset="R-EU_" device="R1206W" value="0"/>
-<part name="SJ1" library="jumper" deviceset="SJ" device=""/>
-<part name="U$9" library="lib-user" deviceset="GND" device=""/>
 <part name="F1" library="fuse" deviceset="SH32" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
@@ -17638,9 +17531,9 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <text x="157.48" y="119.38" size="1.778" layer="98">3V5</text>
 </plain>
 <instances>
-<instance part="S1" gate=".A" x="106.68" y="88.9" smashed="yes" rot="MR0">
-<attribute name="PART" x="104.14" y="91.44" size="1.27" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="111.76" y="83.82" size="1.27" layer="96" rot="MR0"/>
+<instance part="S1" gate=".A" x="88.9" y="33.02" smashed="yes" rot="MR0">
+<attribute name="PART" x="86.36" y="35.56" size="1.27" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="93.98" y="27.94" size="1.27" layer="96" rot="MR0"/>
 </instance>
 <instance part="S1" gate=".B" x="226.06" y="76.2" smashed="yes">
 <attribute name="NAME" x="233.68" y="75.438" size="1.778" layer="95"/>
@@ -17658,9 +17551,9 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <instance part="C2" gate="G$1" x="50.8" y="144.78"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="175.26" y="0"/>
-<instance part="DD1" gate="A" x="60.96" y="88.9"/>
-<instance part="DD1" gate="C" x="60.96" y="53.34"/>
-<instance part="DD1" gate="B" x="81.28" y="68.58" rot="MR180"/>
+<instance part="DD1" gate="A" x="81.28" y="48.26"/>
+<instance part="DD1" gate="C" x="60.96" y="48.26"/>
+<instance part="DD1" gate="B" x="83.82" y="68.58" rot="MR180"/>
 <instance part="DD1" gate="D" x="60.96" y="76.2"/>
 <instance part="DD1" gate="P" x="154.94" y="109.22"/>
 <instance part="VT1" gate="G$1" x="205.74" y="134.62" smashed="yes">
@@ -17708,9 +17601,9 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <instance part="C6" gate="G$1" x="147.32" y="149.86"/>
 <instance part="C7" gate="G$1" x="144.78" y="111.76"/>
 <instance part="U$2" gate="G$1" x="154.94" y="96.52"/>
-<instance part="SW1" gate="G$1" x="119.38" y="88.9" smashed="yes" rot="MR180">
-<attribute name="NAME" x="120.65" y="92.075" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="113.03" y="93.98" size="1.778" layer="96" rot="MR180"/>
+<instance part="SW1" gate="G$1" x="101.6" y="33.02" smashed="yes" rot="MR180">
+<attribute name="NAME" x="102.87" y="36.195" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="95.25" y="38.1" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C3B" gate="G$1" x="111.76" y="147.32" smashed="yes">
 <attribute name="NAME" x="110.744" y="160.401" size="1.778" layer="95"/>
@@ -17723,7 +17616,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </instance>
 <instance part="R1B" gate="G$1" x="53.34" y="157.48"/>
 <instance part="PWRLED" gate="G$1" x="25.4" y="78.74" rot="MR0"/>
-<instance part="HDDLED" gate="G$1" x="25.4" y="53.34" rot="MR0"/>
+<instance part="!HDDLED" gate="G$1" x="25.4" y="48.26" rot="MR0"/>
 <instance part="+12V" gate="G$1" x="17.78" y="139.7" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="15.24" y="147.32" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="20.32" y="145.542" size="1.778" layer="95" rot="MR0"/>
@@ -17732,31 +17625,18 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <attribute name="NAME" x="39.37" y="72.6186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.37" y="70.358" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="35.56" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.37" y="47.2186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="39.37" y="44.958" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="35.56" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.37" y="42.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="39.878" size="1.778" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="35.56" y="35.56"/>
+<instance part="U$3" gate="G$1" x="35.56" y="30.48"/>
 <instance part="U$4" gate="G$1" x="35.56" y="63.5"/>
 <instance part="L2" gate="G$1" x="127" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="124.46" y="123.19" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="134.62" y="123.19" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C8" gate="G$1" x="137.16" y="111.76"/>
-<instance part="GND" gate="G$1" x="25.4" y="38.1" rot="MR0"/>
-<instance part="3VDB1" gate="G$1" x="76.2" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="73.66" y="84.3026" size="1.778" layer="95"/>
-<attribute name="VALUE" x="73.66" y="81.5086" size="1.778" layer="96"/>
-</instance>
-<instance part="J1" gate="G$1" x="43.18" y="86.36" smashed="yes">
-<attribute name="NAME" x="39.37" y="87.8586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="46.99" y="89.662" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="SJ1" gate="1" x="109.22" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="111.76" y="78.74" size="1.778" layer="95"/>
-<attribute name="VALUE" x="113.03" y="76.2" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="U$9" gate="G$1" x="109.22" y="71.12"/>
+<instance part="GND" gate="G$1" x="25.4" y="33.02" rot="MR0"/>
 <instance part="F1" gate="G$1" x="35.56" y="152.4"/>
 <instance part="P+1" gate="VCC" x="226.06" y="165.1" smashed="yes">
 <attribute name="VALUE" x="228.6" y="167.64" size="1.778" layer="96" rot="R180"/>
@@ -17839,16 +17719,11 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="35.56" y1="40.64" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="35.56" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="38.1" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
-<junction x="35.56" y="38.1"/>
-</segment>
-<segment>
-<pinref part="SJ1" gate="1" pin="1"/>
-<pinref part="U$9" gate="G$1" pin="GND"/>
-<wire x1="109.22" y1="73.66" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="33.02" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="33.02" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
+<junction x="35.56" y="33.02"/>
 </segment>
 </net>
 <net name="1,25V" class="0">
@@ -18023,22 +17898,15 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <pinref part="SW1" gate="G$1" pin="1"/>
 <pinref part="S1" gate=".A" pin="SW2"/>
-<wire x1="116.84" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="86.36" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="88.9" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="3VDB1" gate="G$1" pin="A"/>
-<wire x1="78.74" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
-<junction x="99.06" y="88.9"/>
-<pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="109.22" y1="83.82" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
-<junction x="109.22" y="86.36"/>
+<wire x1="99.06" y1="30.48" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="30.48" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="33.02" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="S1" gate=".A" pin="SW1"/>
 </segment>
 </net>
@@ -18105,46 +17973,24 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <wire x1="238.76" y1="114.3" x2="238.76" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DSKLED" class="0">
+<net name="!DSKLED" class="0">
 <segment>
 <pinref part="DD1" gate="C" pin="I1"/>
 <pinref part="DD1" gate="C" pin="I0"/>
-<label x="38.1" y="53.34" size="1.778" layer="95"/>
-<junction x="50.8" y="53.34"/>
-<wire x1="53.34" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="50.8" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="53.34" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="HDDLED" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
-<junction x="33.02" y="53.34"/>
-<wire x1="33.02" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<label x="38.1" y="48.26" size="1.778" layer="95"/>
+<junction x="50.8" y="48.26"/>
+<wire x1="53.34" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="45.72" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="48.26" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="!HDDLED" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
+<junction x="33.02" y="48.26"/>
+<wire x1="33.02" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="50.8" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<junction x="35.56" y="53.34"/>
-</segment>
-</net>
-<net name="OUT_DSLED" class="0">
-<segment>
-<pinref part="DD1" gate="C" pin="O"/>
-<label x="73.66" y="53.34" size="1.778" layer="95"/>
-<pinref part="DD1" gate="D" pin="I1"/>
-<wire x1="50.8" y1="66.04" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="DD1" gate="B" pin="I0"/>
-<wire x1="73.66" y1="66.04" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="53.34" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="53.34" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
-<junction x="71.12" y="66.04"/>
-<wire x1="71.12" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<junction x="71.12" y="53.34"/>
-</segment>
-<segment>
-<pinref part="3R1" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="134.62" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
-<label x="175.26" y="134.62" size="1.778" layer="95"/>
+<wire x1="35.56" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="45.72" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
+<junction x="35.56" y="48.26"/>
 </segment>
 </net>
 <net name="PWRLED" class="0">
@@ -18159,21 +18005,18 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="76.2" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
 <junction x="35.56" y="78.74"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="86.36" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="OUT_PWLED" class="0">
+<net name="!OUT_PWLED" class="0">
 <segment>
 <pinref part="DD1" gate="D" pin="O"/>
-<wire x1="68.58" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
-<label x="78.74" y="76.2" size="1.778" layer="95"/>
+<wire x1="68.58" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
+<label x="91.44" y="76.2" size="1.778" layer="95"/>
 <pinref part="DD1" gate="B" pin="I1"/>
-<wire x1="71.12" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="71.12" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
-<junction x="71.12" y="76.2"/>
+<wire x1="73.66" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="71.12" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
+<junction x="73.66" y="76.2"/>
 </segment>
 <segment>
 <pinref part="2R1" gate="G$1" pin="1"/>
@@ -18181,11 +18024,11 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <label x="175.26" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OUT_SLED" class="0">
+<net name="!OUT_SLED" class="0">
 <segment>
 <pinref part="DD1" gate="B" pin="O"/>
-<wire x1="88.9" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
-<label x="91.44" y="68.58" size="1.778" layer="95"/>
+<wire x1="91.44" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
+<label x="93.98" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="1R1" gate="G$1" pin="1"/>
@@ -18254,25 +18097,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <pinref part="F1" gate="G$1" pin="2A"/>
 </segment>
 </net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="3VDB1" gate="G$1" pin="C"/>
-<pinref part="DD1" gate="A" pin="O"/>
-<wire x1="73.66" y1="88.9" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="DD1" gate="A" pin="I0"/>
-<wire x1="50.8" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="DD1" gate="A" pin="I1"/>
-<wire x1="53.34" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="86.36" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
-<junction x="50.8" y="86.36"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="1A"/>
@@ -18313,6 +18137,43 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="226.06" y1="162.56" x2="226.06" y2="157.48" width="0.1524" layer="91"/>
 <junction x="226.06" y="157.48"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="DD1" gate="A" pin="I1"/>
+<wire x1="73.66" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="DD1" gate="A" pin="I0"/>
+<wire x1="71.12" y1="50.8" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="50.8" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="48.26" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
+<junction x="71.12" y="48.26"/>
+<pinref part="DD1" gate="C" pin="O"/>
+<wire x1="68.58" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!OUT_DSLED" class="0">
+<segment>
+<label x="93.98" y="48.26" size="1.778" layer="95"/>
+<pinref part="DD1" gate="D" pin="I1"/>
+<wire x1="50.8" y1="66.04" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="DD1" gate="B" pin="I0"/>
+<wire x1="76.2" y1="66.04" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
+<junction x="73.66" y="66.04"/>
+<wire x1="91.44" y1="48.26" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
+<junction x="91.44" y="48.26"/>
+<pinref part="DD1" gate="A" pin="O"/>
+<wire x1="88.9" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="48.26" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="58.42" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="3R1" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="134.62" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
+<label x="175.26" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
