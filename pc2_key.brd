@@ -160,6 +160,8 @@
 <wire x1="48" y1="-13" x2="48" y2="22" width="0.1524" layer="20"/>
 <wire x1="-50" y1="-13" x2="-50" y2="22" width="0.1524" layer="20"/>
 <dimension x1="77.305" y1="12.8725" x2="69.94" y2="13.1425" x3="73.6225" y3="18.6175" textsize="1.778" layer="47" dtype="horizontal"/>
+<text x="-24.13" y="16.51" size="1.778" layer="22" rot="MR0">STAND</text>
+<text x="-34.29" y="-7.3025" size="1.778" layer="22" rot="MR0">POWER</text>
 </plain>
 <libraries>
 <library name="gateronrgb">
@@ -2940,39 +2942,39 @@ outside dimension, layers 16 + 30</description>
 </element>
 <element name="C2" library="resistor" package="C0805K" value="100n" x="21.2725" y="5.715" rot="MR0"/>
 <element name="DD1" library="40xx" package="SO14" value="4011D" x="5.3975" y="14.2875" rot="MR90"/>
-<element name="VT1" library="m_transistor" package="TO92" value="KT3107" x="-26.035" y="1.905" smashed="yes" rot="R270">
+<element name="VT1" library="m_transistor" package="TO92" value="KT3107Ж" x="-26.035" y="1.905" smashed="yes" rot="R270">
 <attribute name="NAME" x="-32.512" y="3.81" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="-30.607" y="5.08" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="VT2" library="m_transistor" package="TO92" value="KT3107" x="-26.035" y="-7.3025" smashed="yes" rot="R270">
+<element name="VT2" library="m_transistor" package="TO92" value="KT3107Ж" x="-26.035" y="-7.3025" smashed="yes" rot="R270">
 <attribute name="NAME" x="-32.512" y="-5.715" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="-30.607" y="-4.1275" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="VT3" library="m_transistor" package="TO92" value="KT3107" x="-26.035" y="11.1125" smashed="yes" rot="R270">
+<element name="VT3" library="m_transistor" package="TO92" value="KT3107Ж" x="-26.035" y="11.1125" smashed="yes" rot="R270">
 <attribute name="NAME" x="-32.512" y="12.3825" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="-30.607" y="14.2875" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="1RB" library="rcl" package="R0805" value="" x="-21.9075" y="11.7475" smashed="yes" rot="MR0">
+<element name="1RB" library="rcl" package="R0805" value="47k&amp;330k" x="-21.9075" y="11.7475" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-20.13" y="13.1125" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-21.2725" y="9.2075" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="1RG" library="rcl" package="R0805" value="" x="-21.9075" y="9.2075" smashed="yes" rot="MR0">
+<element name="1RG" library="rcl" package="R0805" value="20k&amp;120k" x="-21.9075" y="9.2075" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-30.1625" y="7.9375" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-21.2725" y="6.6675" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="1RR" library="rcl" package="R0805" value="" x="-21.9075" y="6.6675" smashed="yes" rot="MR0">
+<element name="1RR" library="rcl" package="R0805" value="470" x="-21.9075" y="6.6675" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-30.0825" y="6.0325" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-21.2725" y="4.1275" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="1R1" library="rcl" package="R1206W" value="" x="-31.75" y="11.1125" smashed="yes" rot="MR180">
+<element name="1R1" library="rcl" package="R1206W" value="5k1" x="-31.75" y="11.1125" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-34.925" y="10.4775" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-33.655" y="13.6525" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="2R1" library="rcl" package="R1206W" value="" x="-31.4325" y="-5.715" smashed="yes" rot="MR270">
+<element name="2R1" library="rcl" package="R1206W" value="5k1" x="-31.4325" y="-5.715" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-30.7975" y="-8.255" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="-28.8925" y="-3.81" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="3R1" library="rcl" package="R1206W" value="" x="-31.75" y="1.905" smashed="yes" rot="MR180">
+<element name="3R1" library="rcl" package="R1206W" value="5k1" x="-31.75" y="1.905" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-34.925" y="1.27" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-33.655" y="4.445" size="1.27" layer="28" rot="MR180"/>
 </element>
@@ -2988,16 +2990,16 @@ outside dimension, layers 16 + 30</description>
 <attribute name="NAME" x="-18.9865" y="10.287" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="-15.3035" y="3.6195" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="2RB" library="rcl" package="R0805" value="" x="-21.9075" y="-4.7625" smashed="yes" rot="MR0">
+<element name="2RB" library="rcl" package="R0805" value="2k7&amp;15k" x="-21.9075" y="-4.7625" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-33.3375" y="-4.7625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-21.2725" y="-7.3025" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="2RG" library="rcl" package="R0805" value="" x="-21.9075" y="-7.3025" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-33.3375" y="-7.9375" size="1.27" layer="26" rot="MR0"/>
+<element name="2RG" library="rcl" package="R0805" value="3k3" x="-21.9075" y="-7.3025" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-33.3375" y="-9.525" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-21.2725" y="-9.8425" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="2RR" library="rcl" package="R0805" value="" x="-21.9075" y="-9.8425" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-33.3375" y="-10.4775" size="1.27" layer="26" rot="MR0"/>
+<element name="2RR" library="rcl" package="R0805" value="3k8&amp;150" x="-21.9075" y="-9.8425" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-33.3375" y="-11.43" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-21.2725" y="-12.3825" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="2VDB" library="diode" package="SOD80C" value="" x="-15.24" y="-4.7625" smashed="yes" rot="MR0">
@@ -3212,7 +3214,7 @@ outside dimension, layers 16 + 30</description>
 <contactref element="VT3" pad="2"/>
 <wire x1="-30.251" y1="11.1125" x2="-27.305" y2="11.1125" width="0.6096" layer="16"/>
 </signal>
-<signal name="N$4">
+<signal name="B">
 <contactref element="S1" pad="D1"/>
 <contactref element="3VDB" pad="C"/>
 <contactref element="1VDB" pad="C"/>
@@ -3229,7 +3231,7 @@ outside dimension, layers 16 + 30</description>
 <wire x1="-7.7085" y1="-4.7625" x2="-4.1275" y2="-4.7625" width="0.6096" layer="16"/>
 <wire x1="-4.1275" y1="-4.7625" x2="-3.81" y2="-5.08" width="0.6096" layer="16"/>
 </signal>
-<signal name="N$13">
+<signal name="G">
 <contactref element="S1" pad="D2"/>
 <contactref element="2VDG" pad="C"/>
 <contactref element="1VDG" pad="C"/>
@@ -3247,7 +3249,7 @@ outside dimension, layers 16 + 30</description>
 <wire x1="-9.2075" y1="-3.0625" x2="-12.065" y2="-0.205" width="0.6096" layer="16"/>
 <wire x1="-12.065" y1="-0.205" x2="-12.065" y2="1.7925" width="0.6096" layer="16"/>
 </signal>
-<signal name="N$14">
+<signal name="R">
 <contactref element="S1" pad="D4"/>
 <contactref element="3VDR" pad="C"/>
 <contactref element="1VDR" pad="C"/>
@@ -3470,7 +3472,7 @@ outside dimension, layers 16 + 30</description>
 <contactref element="J2" pad="2"/>
 <wire x1="-13.54" y1="-4.7625" x2="-10.7065" y2="-4.7625" width="0.6096" layer="16"/>
 </signal>
-<signal name="3V5">
+<signal name="3V6">
 <contactref element="R3" pad="2"/>
 <contactref element="L1" pad="1"/>
 <contactref element="C5" pad="1"/>
