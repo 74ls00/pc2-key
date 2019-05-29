@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -410,7 +410,10 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="175.26" y="0"/>
-<instance part="K1" gate="G$1" x="223.52" y="127"/>
+<instance part="K1" gate="G$1" x="243.84" y="127" smashed="yes">
+<attribute name="NAME" x="236.22" y="157.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="233.68" y="96.52" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>

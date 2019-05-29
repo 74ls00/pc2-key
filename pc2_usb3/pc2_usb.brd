@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -465,7 +465,10 @@ Copyright: Würth Elektronik</description>
 </pass>
 </autorouter>
 <elements>
-<element name="K1" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev15c" package="692141030100" value="692141030100" x="13.335" y="6.35"/>
+<element name="K1" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev15c" package="692141030100" value="692141030100" x="13.335" y="6.35" smashed="yes">
+<attribute name="VALUE" x="7.5475" y="16.0875" size="1.27" layer="27"/>
+<attribute name="NAME" x="11.9925" y="18.0875" size="1.27" layer="25"/>
+</element>
 </elements>
 <signals>
 </signals>
