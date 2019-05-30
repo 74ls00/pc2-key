@@ -314,6 +314,51 @@ Copyright: Würth Elektronik</description>
 <text x="8.5" y="14.5" size="1.27" layer="27">&gt;VALUE</text>
 <text x="8.5" y="16.5" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="61400826021">
+<description>WR-COM Horizontal Dual Stacked USB Type A</description>
+<wire x1="-7.67" y1="-10.28" x2="7.67" y2="-10.28" width="0.127" layer="21"/>
+<wire x1="7.67" y1="-10.28" x2="7.67" y2="6.72" width="0.127" layer="21"/>
+<wire x1="7.67" y1="6.72" x2="-7.67" y2="6.72" width="0.127" layer="21"/>
+<wire x1="-7.67" y1="6.72" x2="-7.67" y2="-10.28" width="0.127" layer="21"/>
+<pad name="11" x="6.57" y="0" drill="2.3"/>
+<pad name="12" x="-6.57" y="0" drill="2.3"/>
+<pad name="10" x="6.57" y="5.68" drill="2.3"/>
+<pad name="9" x="-6.57" y="5.68" drill="2.3"/>
+<pad name="3" x="1" y="5.33" drill="0.92"/>
+<pad name="2" x="-1" y="5.33" drill="0.92"/>
+<pad name="4" x="3.5" y="5.33" drill="0.92"/>
+<pad name="1" x="-3.5" y="5.33" drill="0.92"/>
+<pad name="8" x="3.5" y="2.71" drill="0.92"/>
+<pad name="5" x="-3.5" y="2.71" drill="0.92"/>
+<pad name="7" x="1" y="2.71" drill="0.92"/>
+<pad name="6" x="-1" y="2.71" drill="0.92"/>
+<text x="-6.332" y="9.3985" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.332" y="-12.3754" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="2.9591" y1="-6.4629" x2="2.7514" y2="-3.7115" width="0.1016" layer="51"/>
+<wire x1="2.7514" y1="-3.7115" x2="2.5438" y2="-3.452" width="0.1016" layer="51" curve="68.629849"/>
+<wire x1="2.5438" y1="-3.452" x2="1.9727" y2="-3.452" width="0.1016" layer="51" curve="34.099487"/>
+<wire x1="1.9727" y1="-3.452" x2="1.7651" y2="-3.7115" width="0.1016" layer="51" curve="68.629849"/>
+<wire x1="1.7651" y1="-3.7115" x2="1.5055" y2="-6.4629" width="0.1016" layer="51"/>
+<wire x1="1.5055" y1="-6.4629" x2="1.7132" y2="-6.4629" width="0.1016" layer="51"/>
+<wire x1="1.7132" y1="-6.4629" x2="1.9727" y2="-4.0749" width="0.1016" layer="51"/>
+<wire x1="1.9727" y1="-4.0749" x2="2.4919" y2="-4.0749" width="0.1016" layer="51"/>
+<wire x1="2.4919" y1="-4.0749" x2="2.7514" y2="-6.4629" width="0.1016" layer="51"/>
+<wire x1="2.7514" y1="-6.4629" x2="2.9591" y2="-6.4629" width="0.1016" layer="51"/>
+<wire x1="-2.9589" y1="-6.4629" x2="-2.7512" y2="-3.7115" width="0.1016" layer="51"/>
+<wire x1="-2.7512" y1="-3.7115" x2="-2.5436" y2="-3.452" width="0.1016" layer="51" curve="-68.629849"/>
+<wire x1="-2.5436" y1="-3.452" x2="-1.9725" y2="-3.452" width="0.1016" layer="51" curve="-34.099487"/>
+<wire x1="-1.9725" y1="-3.452" x2="-1.7649" y2="-3.7115" width="0.1016" layer="51" curve="-68.629849"/>
+<wire x1="-1.7649" y1="-3.7115" x2="-1.5053" y2="-6.4629" width="0.1016" layer="51"/>
+<wire x1="-1.5053" y1="-6.4629" x2="-1.713" y2="-6.4629" width="0.1016" layer="51"/>
+<wire x1="-1.713" y1="-6.4629" x2="-1.9725" y2="-4.0749" width="0.1016" layer="51"/>
+<wire x1="-1.9725" y1="-4.0749" x2="-2.4917" y2="-4.0749" width="0.1016" layer="51"/>
+<wire x1="-2.4917" y1="-4.0749" x2="-2.7512" y2="-6.4629" width="0.1016" layer="51"/>
+<wire x1="-2.7512" y1="-6.4629" x2="-2.9589" y2="-6.4629" width="0.1016" layer="51"/>
+<wire x1="-8.5" y1="7.75" x2="-8.5" y2="-10.53" width="0.127" layer="39"/>
+<wire x1="-8.5" y1="-10.53" x2="8.5" y2="-10.53" width="0.127" layer="39"/>
+<wire x1="8.5" y1="-10.53" x2="8.5" y2="7.75" width="0.127" layer="39"/>
+<wire x1="8.5" y1="7.75" x2="-8.5" y2="7.75" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DOUBLE_USB3_TYPE_A">
@@ -348,12 +393,34 @@ Copyright: Würth Elektronik</description>
 <pin name="STDA_SSTX-@2" x="-15.24" y="-22.86" length="middle"/>
 <pin name="STDA_SSTX+@2" x="-15.24" y="-25.4" length="middle"/>
 </symbol>
+<symbol name="4X2_USB">
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="16.51" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="12.7" size="1.27" layer="94">A</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="94">B</text>
+<pin name="GND@1" x="-10.16" y="5.08" length="middle"/>
+<pin name="D+@1" x="-10.16" y="7.62" length="middle"/>
+<pin name="D-@1" x="-10.16" y="10.16" length="middle"/>
+<pin name="VCC@1" x="-10.16" y="12.7" length="middle"/>
+<pin name="GND@2" x="-10.16" y="-10.16" length="middle"/>
+<pin name="D+@2" x="-10.16" y="-7.62" length="middle"/>
+<pin name="D-@2" x="-10.16" y="-5.08" length="middle"/>
+<pin name="VCC@2" x="-10.16" y="-2.54" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="692141030100" prefix="K">
 <description>&lt;B&gt;WR-COM  USB 3.0 STACKED TYPE A&lt;/b&gt;=&gt;Code : Con_I-O_COM_USB-3.0_A_6921410303100
 &lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_I-O_COM_USB-3.0_A_6921410303100_pf2.jpg" title="Enlarge picture"&gt;
-&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_I-O_COM_USB-3.0_A_6921410303100_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_I-O_COM_USB-3.0_A_6921410303100_pf2.jpg" width="16"&gt;&lt;/a&gt;&lt;p&gt;
 Details see: &lt;a href="http://katalog.we-online.de/en/em/692_141_030_100"&gt;http://katalog.we-online.de/en/em/692_141_030_100&lt;/a&gt;&lt;p&gt;
 Created 2014-07-09, Karrer Zheng&lt;br&gt;
 2014 (C) Würth Elektronik</description>
@@ -388,6 +455,34 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="61400826021" prefix="K">
+<description>&lt;b&gt;WR-COM Horizontal Dual Stacked USB Type A&lt;/b&gt;=&gt;Code : Con_I-O_COM_USB-2.0_A_61400826021
+&lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_I-O_COM_USB-2.0_A_61400826021_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_I-O_COM_USB-2.0_A_61400826021_pf2.jpg" width="16"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/em/614_008_260_21"&gt;http://katalog.we-online.de/en/em/614_008_260_21&lt;/a&gt;&lt;p&gt;
+Created 2014-07-09, Karrer Zheng&lt;br&gt;
+2014 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="4X2_USB" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="61400826021">
+<connects>
+<connect gate="G$1" pin="D+@1" pad="3"/>
+<connect gate="G$1" pin="D+@2" pad="7"/>
+<connect gate="G$1" pin="D-@1" pad="2"/>
+<connect gate="G$1" pin="D-@2" pad="6"/>
+<connect gate="G$1" pin="GND@1" pad="4"/>
+<connect gate="G$1" pin="GND@2" pad="8"/>
+<connect gate="G$1" pin="VCC@1" pad="1"/>
+<connect gate="G$1" pin="VCC@2" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -402,6 +497,7 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <parts>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="K1" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev15c" deviceset="692141030100" device=""/>
+<part name="K2" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev15c" deviceset="61400826021" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -414,6 +510,7 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <attribute name="NAME" x="236.22" y="157.48" size="1.778" layer="95"/>
 <attribute name="VALUE" x="233.68" y="96.52" size="1.778" layer="96"/>
 </instance>
+<instance part="K2" gate="G$1" x="190.5" y="137.16"/>
 </instances>
 <busses>
 </busses>
