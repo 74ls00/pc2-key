@@ -1,0 +1,90 @@
+https://www.diymodules.org/eagle-show-library?type=usr&id=1012211385&part=Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev15c.lbr
+
+
+kon                        dns t  mvid  citi
+
+
+Royal Clima RM-MP30CN-E    16.8k          3kw 1.068
+
+
+
+Zanussi ZACM-12 MP-III/N1  21k    23k
+
+
+Zanussi ZACM-12 MS/N1      24k
+                     ÷     23k
+
+Electrolux EACM-12 CG/N3   25.5k  27k   24.25k
+ELECTROLUX EACM-13 CL/N3   27.5k        26.4k
+Electrolux EACM-13 HR/N3   30k
+
+
+
+ECOSTAR KV-C28CN-E         14.3k          2.2kw 0.98
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
