@@ -3206,8 +3206,8 @@ outside dimension, layers 16 + 30</description>
 <vertex x="17.78" y="18.415"/>
 </polygon>
 <wire x1="2.9591" y1="18.0975" x2="2.9591" y2="21.2725" width="0.6096" layer="16"/>
-<wire x1="2.9591" y1="21.2725" x2="11.7475" y2="21.2725" width="0.6096" layer="16"/>
-<wire x1="11.7475" y1="21.2725" x2="12.7" y2="20.6375" width="0.6096" layer="16"/>
+<wire x1="2.9591" y1="21.2725" x2="11.1125" y2="21.2725" width="0.6096" layer="16"/>
+<wire x1="11.1125" y1="21.2725" x2="12.7" y2="20.6375" width="0.6096" layer="16"/>
 </signal>
 <signal name="1,25V">
 <contactref element="R3" pad="1"/>
@@ -3423,9 +3423,9 @@ outside dimension, layers 16 + 30</description>
 <contactref element="DD1" pad="8"/>
 <contactref element="!HDDLED" pad="1"/>
 <wire x1="9.1059" y1="16.8275" x2="9.1059" y2="18.0975" width="0.6096" layer="16"/>
-<wire x1="12.7" y1="15.5575" x2="11.43" y2="15.5575" width="0.6096" layer="16"/>
-<wire x1="11.43" y1="15.5575" x2="10.4775" y2="16.8275" width="0.6096" layer="16"/>
-<wire x1="10.4775" y1="16.8275" x2="9.1059" y2="16.8275" width="0.6096" layer="16"/>
+<wire x1="12.7" y1="15.5575" x2="12.065" y2="15.5575" width="0.6096" layer="16"/>
+<wire x1="12.065" y1="15.5575" x2="10.795" y2="16.8275" width="0.6096" layer="16"/>
+<wire x1="10.795" y1="16.8275" x2="9.1059" y2="16.8275" width="0.6096" layer="16"/>
 <contactref element="R5" pad="2"/>
 <wire x1="14.376" y1="14.2875" x2="13.741" y2="14.2875" width="0.6096" layer="16"/>
 <wire x1="13.741" y1="14.2875" x2="12.7" y2="15.5575" width="0.6096" layer="16"/>
